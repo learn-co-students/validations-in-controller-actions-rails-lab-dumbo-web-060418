@@ -1,0 +1,10 @@
+
+<h1>Authors List</h1>
+
+<ol>
+	<%@authors.each do |author| %>
+	<li>
+		<h2>Author Name <%= author.name %> - <%= author.email %></h2>
+	</li>
+	<%end%>
+</ol>
